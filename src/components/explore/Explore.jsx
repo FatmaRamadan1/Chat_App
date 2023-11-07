@@ -16,7 +16,7 @@ export default function Explore() {
                 <p className={Styles.title}>Conversa</p>
                 <div className={Styles.topic}>
                     {topics.map((topic) => (
-                        <Topic title={topic.title} icon={topic.icon} />
+                        <Topic title={topic.title} icon={topic.icon}/>
                     ))}
                 </div>
             </div>
