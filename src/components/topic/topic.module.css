@@ -1,0 +1,31 @@
+.container{
+    display: flex; 
+    align-items: center; 
+    color: 20px;
+    height: 100%;
+}
+
+.container .btn{
+    display: contents; 
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem; 
+    align-items: center; 
+    width: 100%; 
+    font-size: large;
+    transition-duration: 100ms; 
+    transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+} 
+
+.container .btn:hover {
+    color: #ffffff; 
+    background: #7289dc;
+}
+
+.btn .text{
+    padding-left: 1rem; 
+    color: 25px;
+}
+
+.btn .p{
+    margin-left: 0.5rem; 
+}

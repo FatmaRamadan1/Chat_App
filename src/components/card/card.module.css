@@ -1,0 +1,57 @@
+.container{
+    width: 100%; 
+}
+
+.container .banner{
+    display: flex; 
+    width: 100%; 
+    height: 10rem; 
+}
+
+.img_contain .img{
+    object-fit: cover; 
+    width: 100%; 
+}
+
+.container .profile{
+    position: relative; 
+    background: #292b2f;
+    height: 11.5rem;
+}
+
+.profile .profile_pic{
+    display: flex; 
+    position: absolute; 
+    left: 1rem; 
+    top: -2rem; 
+    padding: 0.25rem; 
+    width: 4rem; 
+    height: 4rem; 
+    background: #292b2f;
+}
+
+.profile-pic .profile_img{
+    object-fit: cover; 
+}
+
+.title{
+    padding-top: 2.25rem; 
+    font-weight: 700; 
+    color: #ffffff; 
+    color: 17px;
+}
+
+.description{
+    padding-top: 0.25rem; 
+    font-weight: 500; 
+    color: #9CA3AF; 
+    color: 15px;
+}
+
+.size{
+    padding-top: 0.75rem; 
+    padding-bottom: 1rem; 
+    font-weight: 500; 
+    color: #9CA3AF; 
+    color: 13.5px;
+}

@@ -1,0 +1,77 @@
+.container{
+    display: none; 
+    position: sticky; 
+    top: 0; 
+    padding-top: 1.5rem; 
+    flex-shrink: 0; 
+    height: 100vh; 
+    background: #121212;
+    width: 6rem;
+}
+@media (min-width: 640px) { 
+    .container {display: flex; }
+}
+
+.container .groups{
+    display: flex; 
+    margin-top: 1rem; 
+    flex-direction: column; 
+    align-items: center; 
+    width: 100%;
+    background-color: #121212;
+}
+
+.groups .discord{
+    padding: 0.25rem; 
+    cursor: pointer; 
+    background: #121212;
+}
+
+.discord .discord_img{
+    border-radius: 9999px; 
+    width: 3rem; 
+    height: 3rem; 
+    color: #121212; 
+}
+
+.compass{
+    padding: 0.75rem; 
+    cursor: pointer; 
+    background: #121212;
+}
+
+.compass .ai_compass{
+    border-radius: 9999px; 
+    width: 2rem; 
+    height: 2rem; 
+    color: #ffffff; 
+}
+
+.group{
+    padding-top: 1rem; 
+    margin-top: 0.5rem; 
+}
+
+.img{
+    display: flex;
+    width: 3.5rem;
+    height:3.5rem ;
+    cursor: pointer;
+    border-radius: 9999px;
+    object-fit: cover;
+    padding-bottom:10px ;
+}
+
+.plus{
+    padding: 1rem; 
+    border-radius: 9999px; 
+    background: #5c626e;
+}
+
+.plus .fi_plus{
+    border-radius: 9999px; 
+    width: 1.5rem; 
+    height: 1.5rem; 
+    color: #041978; 
+    cursor: pointer; 
+}
